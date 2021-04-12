@@ -16,8 +16,7 @@ namespace Console
         private static readonly int CharsAvailable = Chars.Length;
         private static readonly HttpClient HttpClient = new HttpClient();
         private static int ThreadCount = 0;
-        private static int Attempts = 0;
-        
+
         static async Task Main()
         {
             ServicePointManager.ServerCertificateValidationCallback += (sender, cert, chain, sslPolicyErrors) => true;
