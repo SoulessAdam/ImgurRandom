@@ -1,0 +1,8 @@
+X:\Projects\Imgur thing idk\Console\Console\obj\Debug\Console.csprojAssemblyReference.cache
+X:\Projects\Imgur thing idk\Console\Console\obj\Debug\Console.csproj.CoreCompileInputs.cache
+X:\Projects\Imgur thing idk\Console\Console\bin\Debug\Console.exe
+X:\Projects\Imgur thing idk\Console\Console\bin\Debug\Console.pdb
+X:\Projects\Imgur thing idk\Console\Console\bin\Debug\System.Drawing.Common.dll
+X:\Projects\Imgur thing idk\Console\Console\obj\Debug\Console.csproj.CopyComplete
+X:\Projects\Imgur thing idk\Console\Console\obj\Debug\Console.exe
+X:\Projects\Imgur thing idk\Console\Console\obj\Debug\Console.pdb
