@@ -23,8 +23,6 @@ namespace Console
         static async Task Main()
         {
             ServicePointManager.ServerCertificateValidationCallback += (sender, cert, chain, sslPolicyErrors) => true;
-            var Image = await TestUrl(BaseUri + "w96lRU2.png");
-            Image.Save($"TestFile{Attempts}.png", ImageFormat.Png);
             await TestUrlLoop();
         }
 
