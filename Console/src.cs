@@ -35,9 +35,8 @@ namespace ImgurRandom
                             var image = await TestUrl(BaseUri + url + ".png");
                             if (image.Height != 81)
                             {
-                                System.Console.WriteLine("SAVING FILE "+url);
+                                Console.WriteLine("SAVING FILE "+url);
                                 image.Save($"{url}.png", ImageFormat.Png);
-                                await Task.Delay(5);
                             }
                         }
                     }
@@ -50,7 +49,7 @@ namespace ImgurRandom
         private static async Task<Image> TestUrl(string url)
         {
             var httpReq = await HttpClient.GetByteArrayAsync(url);
-            System.Console.WriteLine(url);
+            Console.WriteLine(url);
             MemoryStream mStream = new MemoryStream(httpReq);
             return Image.FromStream(mStream);
         }
