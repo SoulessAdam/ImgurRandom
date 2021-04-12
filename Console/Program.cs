@@ -16,7 +16,6 @@ namespace Console
         private static readonly char[] Chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
         private static readonly int CharsAvailable = Chars.Length;
         private static readonly HttpClient HttpClient = new HttpClient();
-        private static bool Run = true;
         private static int ThreadCount = 0;
         private static int Attempts = 0;
         
@@ -32,8 +31,7 @@ namespace Console
             {
                 Task.Run(async () =>
                     {
-                        System.Console.WriteLine("Thread "+ThreadCount+" Starting");
-                        while (Run)
+                        while (true)
                         {
                             var url = RString(7);
                             var image = await TestUrl(BaseUri + url + ".png");
