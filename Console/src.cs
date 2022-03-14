@@ -33,7 +33,7 @@ namespace ImgurRandom
                         {
                             var url = RString(7);
                             var image = await TestUrl(BaseUri + url + ".png");
-                            if (image.Height != 81)
+                            if (image.Height != 81) // shitty filtering for image not found image, should probably just keep a local copy and do a byte comparison or sum like that.
                             {
                                 Console.WriteLine("SAVING FILE "+url);
                                 image.Save($"{url}.png", ImageFormat.Png);
