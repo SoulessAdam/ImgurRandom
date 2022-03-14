@@ -6,3 +6,5 @@
   * Random game screenshots, mostly from the GTA Franchise or Runescape. 
 ##### Shitty code, enjoy reading it. 
 
+
+###### This code was written before I cared about having a tidy codebase and having actual good code. I don't care enough to rewrite this though as I literally made this for shits and giggles 
